@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color:beige;
 }
 
 .calculadora_imc{
@@ -8,7 +9,7 @@
     position: relative;
     font-size: 13px;
     color: #707070;
-    left: 40%;
+    left: 32%;
     margin: 5%;
     
 }
