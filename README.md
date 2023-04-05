@@ -6,6 +6,6 @@
 
 <h1></h1>
 
-<h1>Proximo objetivo é Calculadora em IMC</h1>
+<h1>Próximo objetivo é Calculadora em IMC</h1>
 
 <p>Projeto em andamento... &#9203</p>
