@@ -2,4 +2,4 @@
 
 <p>A calculadora realiza soma, subtração, multiplicação e divisão.</p>
 
-<img src="./calculadora.png" alt="Calculadora">
+<img src="./calculadora.js" alt="Calculadora">
