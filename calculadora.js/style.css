@@ -1,45 +1,60 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-
-.fundo{
-    background-color: #333333;
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    margin: 0;
+    background-color: #f0f0f0;
 }
 
-.calculadora{
-    position: absolute;
-    background-color: #e6e6e6;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    border-radius: 15px;
-    padding: 40px;
-}
-
-.botao{
-    background-color:darkgrey;
-    width: 50px;
-    height: 50px;
-    font-size: 25px;
-    font-family:Arial, Helvetica, sans-serif;
-    margin: 2px;
+.calculator {
+    background-color: #444;
     border-radius: 10px;
-    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
 }
 
-
-#resul{
-    width: 207px;
-    background-color: #fff;
-    height: 30px;
-    margin: 10px;
-    border-radius: 10px;
-    font-size: 25px;
+.display {
+    background-color: #333;
+    padding: 20px;
+    color: #f0f0f0;
 }
 
+.display input {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    text-align: right;
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: #777;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.operator {
+    background-color: #ff9500;
+}
+
+.verde {
+    background-color: #4cd964;
+}

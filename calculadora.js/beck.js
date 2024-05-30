@@ -5,7 +5,8 @@ function insert(num)
 }
 
 function clean(){
-    document.getElementById('resul').innerHTML = "";
+    var resul = document.getElementById('resul').innerHTML;
+    document.getElementById('resul').innerHTML = resul*0
 }
 
 function back(){
